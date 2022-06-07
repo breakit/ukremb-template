@@ -8,7 +8,7 @@
 //
 
 {% if site.color_scheme == "one" %}
-  $color: #434a99;
+  $color: #17baef;
   $color-2: #eebf3f;
 {% elsif site.color_scheme == "two" %}
   $color: #b4ca65;
@@ -20,7 +20,7 @@
   $color: #50c8c9;
   $color-2: #ffbe57;
 {% else %}
-  $color: #6690b9;
+  $color: #434a99;
   $color-2: #dd9d71;
 {% endif %}
 
