@@ -8,7 +8,7 @@
 //
 
 {% if site.color_scheme == "one" %}
-  $color: #243dff;
+  $color: darken(#243dff, 20%);
   $color-2: #ffe73c;
 {% elsif site.color_scheme == "two" %}
   $color: #b4ca65;
