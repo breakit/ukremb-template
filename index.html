@@ -38,7 +38,7 @@ layout: default
     <p class="intro">{{ site.org_summary }}</p>
     <div class="btns">
       <!--a class="btn btn-cta-secondary" href="#" target="_blank">Demo</a-->
-      <a class="btn btn-outline btn-outline-medium scrollto" href="#donate" target="_blank">Learn More <i class="fa fa-angle-double-down"></i></a>
+      <a class="btn btn-outline btn-outline-medium scrollto" href="#donate" target="_blank">Donate <i class="fa fa-angle-double-down"></i></a>
     </div>
     <ul class="meta list-inline">
       <li></li>
@@ -47,13 +47,13 @@ layout: default
   <div class="social-media">
     <div class="info text-center">
       <ul class="social-icons list-inline">
-        {% if site.twitter_username %}
+        {% if site.org_twitter_username %}
         <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
         {% endif %}
-        {% if site.facebook_username %}
+        {% if site.org_facebook_username %}
         <li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
         {% endif %}
-        {% if site.instagram_username %}
+        {% if site.org_instagram_username %}
         <li><a href="http://instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram"></i></a></li>
         {% endif %}
         {% if site.org_general_email_inbox %}
