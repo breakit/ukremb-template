@@ -8,7 +8,7 @@ org_name: Project Example
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
 
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  
+
 
 #OPTIONAL
 #Non US-address support coming soon
@@ -33,13 +33,13 @@ org_instagram_username:
 fiscal_sponsor: false
 fiscal_sponsor_name:
 #If your organization is currently registered as a 501(c)3 organization, enter true below. Otherwise enter false. Enter false if you have a fiscal sponsor.
-is_501c3: true
+is_501c3: false
 
 #ONLINE DONATIONS & EMAIL SIGNUPS
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
-donorbox_campaign_name: free-template-demo
-tinyletter_username: interestingnonprofits
+donorbox_campaign_name: false
+tinyletter_username: false
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
