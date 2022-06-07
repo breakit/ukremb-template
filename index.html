@@ -153,7 +153,7 @@ layout: default
       <h2 class="title text-center">Donate</h2>
       <div class="info">
         <p><strong>Become a donor today.</strong><br>As a small grassroots organization, know that every dollar will have an immense impact on our ability to continue working towards our mission.</p>
-        {% if site.donorbox_campaign_name %}
+        <!--{% if site.donorbox_campaign_name %}
           <div class="donorbox text-center">
             <iframe src="https://donorbox.org/embed/{{ site.donorbox_campaign_name }}" height="600px" width="100%" style="max-width:500px; min-width:310px" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>
           </div>
@@ -168,7 +168,7 @@ layout: default
         <hr>
         <p class="text-warning">Sorry, online donations are not available at this time <i class="fa fa-frown-o"></i></p>
         <hr>
-        {% endif %}
+        {% endif %}-->
       </div><!--//info-->
       <div class="cta-container">
         <div class="speech-bubble">
@@ -178,12 +178,12 @@ layout: default
         <div class="btn-container  text-center">
           <!--//You need to generate your own PayPal button if you choose to use Paypal - https://www.paypal.com/us/cgi-bin/?cmd=_donate-intro-outside -->
           <!--PayPal generated code starts-->
-              <!--form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <input type="hidden" name="cmd" value="_s-xclick">
               <input type="hidden" name="hosted_button_id" value="{{ site.paypal_button_id }}">
               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
               <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-            </form-->
+            </form>
             <!--//PayPal generated code ends-->
 
         </div><!--//btn-container-->
