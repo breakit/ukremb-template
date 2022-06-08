@@ -156,23 +156,15 @@ layout: default
       <div class="info">
         <p><strong>Become a donor today.</strong><br>As a small grassroots organization, know that every dollar will have an immense impact on our ability to continue working towards our mission.</p>
         <h4 class="text-center form-heading">Select Amount</h4>
-        <form method="post" target="_blank">
-
-            <input type="hidden" name="cmd" value="_donations">
-            <input type="hidden" name="business" value="louzanimalespaypal@gmail.com">
-
+        <form class="amount-chooser" target="_blank">
             <label><input type="checkbox" name="amount" class="checkbutton" value="10,00"><span>€10.00</span></label>
             <label><input type="checkbox" name="amount" class="checkbutton" value="25,00"><span>€25.00</span></label>
             <label><input type="checkbox" name="amount" class="checkbutton" value="50,00"><span>€20.00</span></label>
             <input type="number" class="textBox" name="amount" placeholder="€ Other">
-
             <input type="hidden" name="item_name" value="Donation">
             <input type="hidden" name="item_number" value="Donation">
             <input type="hidden" name="currency_code" value="EUR">
-
-        
             <br style="clear: both;"/>
-
         </form>
         <div class="btn-container  text-center" id="paypal-button-container">
         </div><!--//btn-container-->

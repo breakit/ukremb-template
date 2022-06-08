@@ -1,4 +1,4 @@
-label {
+.amount-chooser label {
     margin: 1%;
     float: left;
     background: $color;
@@ -7,40 +7,40 @@ label {
     width: 18%;
 }
 
-label:hover {
+.amount-chooser label:hover {
     background: $color-2;
     color: $color;
 }
 
-label span {
+.amount-chooser label span {
     text-align: center;
     box-sizing: border-box;
     padding: 10px 0;
     display: block;
 }
 
-label input {
+.amount-chooser label input {
     display: none;
     left: 0;
     top: -10px;
 }
 
-input:checked + span {
+.amount-chooser input:checked + span {
     background-color: $color-2;
     color: $color;
 }
 
 /* Hide HTML5 Up and Down arrows in input type="number" */
-input[type=number] {-moz-appearance: textfield;}
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+.amount-chooser input[type=number] {-moz-appearance: textfield;}
+.amount-chooser input[type=number]::-webkit-inner-spin-button,
+.amount-chooser input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     appearance: none;
     margin: 0;
 }
 
 
-.textBox {
+.amount-chooser  .textBox {
     margin: 1%;
     float: left;
     background: $color;
@@ -56,7 +56,7 @@ input[type=number]::-webkit-outer-spin-button {
     box-sizing: border-box;
 }
 
-.textBox:focus {
+.amount-chooser  .textBox:focus {
     box-shadow:none;
     box-shadow:inset 0 0 4px 0 #000;
    -moz-box-shadow:inset 0 0 4px 0 #000;
