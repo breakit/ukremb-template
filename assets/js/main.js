@@ -57,7 +57,8 @@ paypal.Buttons({
             purchase_units: [{
                 amount: {
                     value: function() {
-                      return jQuery(".amount-chooser .checkbutton:checked").val();
+                      var amount = jQuery(".amount-chooser .checkbutton:checked").length() ? jQuery(".amount-chooser .checkbutton:checked").val() : jQuery(".amount-chooser .textBox").val();
+                      return amount;
                     }
                 }
             }],
