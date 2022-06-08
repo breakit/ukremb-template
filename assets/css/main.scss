@@ -38,6 +38,10 @@
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 20%, #243dff 80%, rgba(255, 255, 255, 0) 100%), url('../img/pattern.png') repeat;
 }
 
+.promo .h2-responsive {
+  font-size: 3vw;
+}
+
 .promo img {
   height: 12vw;
   width: 12vw;
@@ -133,7 +137,7 @@
     height: 36vw;
     width: 36vw;
   }
-  .h2-responsive {
+  .promo .h2-responsive {
     font-size: 6vw;
   }
 }
@@ -143,7 +147,7 @@
     height: 24vw;
     width: 24vw;
   }
-  .h2-responsive {
+  .promo .h2-responsive {
     font-size: 5vw;
   }
 }
@@ -153,7 +157,7 @@
     height: 18vw;
     width: 18vw;
   }
-  .h2-responsive {
+  .promo .h2-responsive {
     font-size: 4vw;
   }
 }
