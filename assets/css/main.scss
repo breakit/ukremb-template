@@ -42,6 +42,10 @@
   font-size: 3vw;
 }
 
+.promo .bottom-title {
+  padding-top: 1em;
+}
+
 .promo img {
   height: 12vw;
   width: 12vw;
@@ -132,17 +136,27 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
   .promo img {
     height: 36vw;
     width: 36vw;
+  }
+  .promo .h2-responsive {
+    font-size: 7vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .promo img {
+    height: 30vw;
+    width: 30vw;
   }
   .promo .h2-responsive {
     font-size: 6vw;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .promo img {
     height: 24vw;
     width: 24vw;
@@ -152,7 +166,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
   .promo img {
     height: 18vw;
     width: 18vw;
