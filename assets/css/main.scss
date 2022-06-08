@@ -38,6 +38,11 @@
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 20%, #243dff 80%, rgba(255, 255, 255, 0) 100%), url('../img/pattern.png') repeat;
 }
 
+.promo img {
+  width: 7em;
+  height: 7em;
+}
+
 .disabled-link {
   pointer-events: none;
 }
