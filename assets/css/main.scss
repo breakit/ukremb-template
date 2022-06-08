@@ -35,7 +35,7 @@
 //
 
 .promo {
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 100%), url('assets/img/pattern.svg');
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 100%), url('../img/pattern.svg');
 }
 
 .disabled-link {
@@ -117,7 +117,7 @@
   margin-top: 10px;
 }
 
-.contact .sub-title {
+.contact .info .sub-title {
   color: $color-2;
 }
 
