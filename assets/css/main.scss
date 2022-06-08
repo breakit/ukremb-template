@@ -114,8 +114,8 @@
       color: $color-2;
     }
     &.btn-outline-medium {
-      border: 2px solid darken($color, 15%);
-      color: darken($color, 15%);
+      border: 2px solid darken($color-2, 15%);
+      color: darken($color-2, 15%);
     }
 }
 .btn-outline:hover {
@@ -127,7 +127,7 @@
       background-color: $color-2;
     }
     &.btn-outline-medium {
-      background-color: darken($color, 15%);
+      background-color: darken($color-2, 15%);
     }
 }
 .features .form-inline {
