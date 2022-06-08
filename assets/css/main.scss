@@ -136,7 +136,7 @@
 
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 300px) {
   .promo img {
     height: 36vw;
     width: 36vw;
@@ -146,7 +146,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
   .promo img {
     height: 30vw;
     width: 30vw;
