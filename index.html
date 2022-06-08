@@ -155,6 +155,33 @@ layout: default
       <h2 class="title text-center">Donate</h2>
       <div class="info">
         <p><strong>Become a donor today.</strong><br>As a small grassroots organization, know that every dollar will have an immense impact on our ability to continue working towards our mission.</p>
+        <form id="amount-selection" class="amount-selection">
+          <div class="form-group">
+            <h4 class="text-center">Select Amount</h4>
+            <div class="radio">
+              <label>
+                <input type="radio" name="amount" id="amount10" value="10" checked>
+                10 &euro;
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="amount" id="amount20" value="20">
+                20 &euro;
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="amount" id="amount50" value="50">
+                50 &euro;
+              </label>
+            </div>
+            <label>
+              <input type="number" name="amount" id="amount-custom">
+              Other Amount
+            </label>
+          </div>
+        </form>
         <div class="btn-container  text-center" id="paypal-button-container">
         </div><!--//btn-container-->
       </div><!--//info-->
