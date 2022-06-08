@@ -52,6 +52,7 @@ jQuery(document).ready(function($) {
 paypal.Buttons({
     // Set up the transaction
     createOrder: function(data, actions) {
+        alert(jQuery(".amount-chooser.checkbutton:checked").val());
         return actions.order.create({
             purchase_units: [{
                 amount: {
