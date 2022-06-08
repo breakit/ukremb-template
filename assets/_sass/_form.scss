@@ -10,11 +10,13 @@
     color: #fff;
     text-align: center;
     width: 23%;
+    border-radius: 4px;
 }
 
 .amount-chooser label:hover {
     background: $color-2;
     color: $color;
+    border-radius: 4px;
 }
 
 .amount-chooser label span {
