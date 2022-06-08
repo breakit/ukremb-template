@@ -66,7 +66,7 @@ sass:
 
 #Features under development
 #These are not yet fully supported, but should give you a head start if you know what you're doing
-paypal_button_id: #Not yet available
+paypal_button_id: test 
 smartergiving_id: #Not yet available
 #mailchimp_embed_code: > # Enter Mailchimp post url on next line.
 #  //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe
