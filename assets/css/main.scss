@@ -35,10 +35,7 @@
 //
 
 .promo {
-  background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 20%, #243dff 80%, rgb(255, 255, 255) 100%), url('../img/pattern.svg');
-  background: -o-linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 20%, #243dff 80%, rgb(255, 255, 255) 100%), url('../img/pattern.svg');
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 20%, #243dff 80%, rgb(255, 255, 255) 100%), url('../img/pattern.svg');
-  background-size: cover;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #243dff 20%, #243dff 80%,rgb(255, 255, 255) 100%), url('../img/pattern.png') repeat;
 }
 
 .disabled-link {
