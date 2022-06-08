@@ -35,7 +35,7 @@
 //
 
 .promo {
-  background: linear-gradient(90deg, lighten($color, 20%) 0%, $color 50%, lighten($color, 20%) 100%);
+  background: linear-gradient(90deg, $color 0%, darken($color, 15%) 50%, $color 100%);
 }
 
 .promo .h2-responsive {
