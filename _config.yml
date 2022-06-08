@@ -28,6 +28,8 @@ org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
 org_twitter_username:
 org_facebook_username: ukremb.at
 org_instagram_username:
+  
+org_main_website_address: https://austria.mfa.gov.ua
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
@@ -66,7 +68,7 @@ sass:
 
 #Features under development
 #These are not yet fully supported, but should give you a head start if you know what you're doing
-paypal_button_id: test 
+paypal_button_id: test
 smartergiving_id: #Not yet available
 #mailchimp_embed_code: > # Enter Mailchimp post url on next line.
 #  //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe

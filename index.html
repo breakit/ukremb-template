@@ -173,13 +173,16 @@ layout: default
   <div class="container">
     <div class="contact-inner">
       <h2 class="title  text-center">Contact</h2>
-      <div class="text-center"><img src="assets/img/embassy_logo.jpg" class="img-fluid rounded mx-auto d-block"></div>
+      <div class="text-center"><a href="{{ site.org_main_website_address }}"><img src="assets/img/embassy_logo.jpg" class="img-fluid rounded mx-auto d-block"></a></div>
       <address class="text-center">
         <strong>{{ site.org_name }}</strong><br>
         {% if site.org_street_address %}{{ site.org_street_address }},&nbsp;{% endif %}{% if site.org_address_suite %}{{ site.org_address_suite }}<br>{% endif %}
         {% if site.org_city %}{{ site.org_city }},&nbsp;{% endif %}{% if site.org_state %}{{ site.org_state }}&nbsp;{% endif %}{% if site.org_zip %}{{ site.org_zip }}{% endif %}<br>
         {% if site.org_phone %}
-        <abbr title="Phone">P:</abbr> {{ site.org_phone }}
+        <abbr title="Phone">Tel:</abbr> {{ site.org_phone }}
+        {% endif %}<br>
+        {% if site.org_main_website_address %}
+        <a href="{{ site.org_main_website_address }}" target="_blank">{{ site.org_main_website_address }}</a>
         {% endif %}
       </address>
       <div class="clearfix"></div>
