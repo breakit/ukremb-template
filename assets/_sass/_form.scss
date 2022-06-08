@@ -35,6 +35,7 @@
 .amount-chooser input:checked + span {
     background-color: $color-2;
     color: $color;
+    border-radius: 4px;
 }
 
 /* Hide HTML5 Up and Down arrows in input type="number" */
