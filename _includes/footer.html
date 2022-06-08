@@ -9,6 +9,23 @@
 <script src="https://www.paypal.com/sdk/js?client-id={{ site.paypal_button_id }}&currency=EUR"></script>
 
 <script>
+  $('.amount-chooser input.checkbutton').on('change', function() {
+    $('.amount-chooser input.checkbutton').not(this).prop('checked', false);
+});
+
+$(".amount-chooser .textBox").focus(function() {
+    $(".amount-chooser .checkbutton").prop("checked", false);
+});
+
+$(".amount-chooser .checkbutton").change(function() {
+    if($(this).is(":checked")) {
+        $(".amount-chooser .textBox").val("");
+    }
+});
+
+</script>
+
+<script>
     // Render the PayPal button into #paypal-button-container
     paypal.Buttons({
 
