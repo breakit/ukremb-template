@@ -33,19 +33,18 @@ jQuery(document).ready(function($) {
 });
 
 jQuery(document).ready(function($) {
-    $('.amount-chooser input.checkbutton').on('change', function() {
-        $('.amount-chooser input.checkbutton').not(this).prop('checked', false);
-    });
+  $('.amount-chooser input.checkbutton').on('change', function() {
+      $('.amount-chooser input.checkbutton').not(this).prop('checked', false);
+  });
 
-    $(".amount-chooser .textBox").focus(function() {
-        $(".amount-chooser .checkbutton").prop("checked", false);
-    });
+  $(".amount-chooser .textBox").focus(function() {
+      $(".amount-chooser .checkbutton").prop("checked", false);
+  });
 
-    $(".amount-chooser .checkbutton").change(function() {
-        if($(this).is(":checked")) {
-            $(".amount-chooser .textBox").val("");
-        }
-    });
+  $(".amount-chooser .checkbutton").change(function() {
+      if($(this).is(":checked")) {
+          $(".amount-chooser .textBox").val("");
+      }
   });
 });
 
