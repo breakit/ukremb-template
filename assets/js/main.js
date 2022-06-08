@@ -52,14 +52,11 @@ jQuery(document).ready(function($) {
 paypal.Buttons({
     // Set up the transaction
     createOrder: function(data, actions) {
-        alert(jQuery(".amount-chooser .checkbutton:checked").val());
+        var donation = jQuery(".amount-chooser .checkbutton:checked").length() ? jQuery(".amount-chooser .checkbutton:checked").val() : jQuery(".amount-chooser .textBox").val();
         return actions.order.create({
             purchase_units: [{
                 amount: {
-                    value: function() {
-                      var amount = jQuery(".amount-chooser .checkbutton:checked").length() ? jQuery(".amount-chooser .checkbutton:checked").val() : jQuery(".amount-chooser .textBox").val();
-                      return amount;
-                    }
+                    value: donation
                 }
             }],
             shipping_type: 'PICKUP',
