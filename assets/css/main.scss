@@ -126,6 +126,39 @@
   color: $color-2;
 }
 
+
+
+@media screen and (max-width: 480px) {
+  .promo img {
+    height: 36vw;
+    width: 36vw;
+  }
+  .h2-responsive {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo img {
+    height: 24vw;
+    width: 24vw;
+  }
+  .h2-responsive {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .promo img {
+    height: 18vw;
+    width: 18vw;
+  }
+  .h2-responsive {
+    font-size: 4vw;
+  }
+}
+
+
 // Header Animations
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
