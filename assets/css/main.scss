@@ -170,13 +170,23 @@
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .promo img {
     height: 18vw;
     width: 18vw;
   }
   .promo .h2-responsive {
     font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .promo img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .promo .h2-responsive {
+    font-size: 3vw;
   }
 }
 
