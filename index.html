@@ -157,13 +157,12 @@ layout: default
         <p><strong>Become a donor today.</strong><br>As a small grassroots organization, know that every dollar will have an immense impact on our ability to continue working towards our mission.</p>
         <h4 class="text-center form-heading">Select Amount</h4>
         <form class="amount-chooser" target="_blank">
+            <
             <label><input type="checkbox" name="amount" class="checkbutton" value="10,00"><span>€10.00</span></label>
             <label><input type="checkbox" name="amount" class="checkbutton" value="25,00"><span>€25.00</span></label>
             <label><input type="checkbox" name="amount" class="checkbutton" value="50,00"><span>€50.00</span></label>
             <input type="number" class="textBox" name="amount" placeholder="€ Other">
-            <input type="hidden" name="item_name" value="Donation">
-            <input type="hidden" name="item_number" value="Donation">
-            <input type="hidden" name="currency_code" value="EUR">
+            <input type="hidden" name="currency" value="EUR">
             <br style="clear: both;"/>
         </form>
         <div class="btn-container  text-center" id="paypal-button-container">
@@ -207,7 +206,7 @@ layout: default
         <li><a href="https://www.facebook.com/{{ site.org_facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
         {% endif %}
         {% if site.instagram_username %}
-        <li><a href="http://instagram.com/{{ site.org_instagram_username }}"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="http://instagram.com/{{ site.org_instagram_username }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
         {% endif %}
         {% if site.org_general_email_inbox %}
         <li class="last"><a href="mailto: {{ site.org_general_email_inbox }}"><i class="fa fa-envelope"></i></a></li>
