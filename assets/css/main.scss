@@ -93,6 +93,12 @@
     margin-right: 8px;
     float: left;
 }
+
+.buttons-container {
+  padding: 1.5em auto;
+  max-width: 85%;
+}
+
 .btn-outline, .btn-outline:link, .btn-outline:visited {
     background-color: transparent;
     border-radius: 5px;
