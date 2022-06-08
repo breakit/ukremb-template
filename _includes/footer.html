@@ -22,7 +22,6 @@ $(".amount-chooser .checkbutton").change(function() {
         $(".amount-chooser .textBox").val("");
     }
 });
-
 </script>
 
 <script>
@@ -34,7 +33,9 @@ $(".amount-chooser .checkbutton").change(function() {
             return actions.order.create({
                 purchase_units: [{
                     amount: {
-                        value: '88.44'
+                        value: function() {
+                          return $(".amount-chooser.checkbutton:checked").val();
+                        }
                     }
                 }],
                 shipping_type: 'PICKUP',
