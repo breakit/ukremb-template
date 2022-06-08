@@ -34,7 +34,7 @@ $(".amount-chooser .checkbutton").change(function() {
                 purchase_units: [{
                     amount: {
                         value: function() {
-                          return $(".amount-chooser.checkbutton:checked").val();
+                          return jQuery(".amount-chooser.checkbutton:checked").val();
                         }
                     }
                 }],
