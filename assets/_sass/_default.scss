@@ -430,7 +430,7 @@ pre code {
   margin: 0 auto;
 }
 .contact .title {
-  color: darken($color, 30%);
+  color: darken($color-2, 30%);
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -438,10 +438,10 @@ pre code {
   margin-bottom: 60px;
 }
 .contact a {
-  color: darken($color, 30%);
+  color: darken($color-2, 30%);
 }
 .contact a:hover {
-  color: darken($color, 40%);
+  color: darken($color-2, 40%);
 }
 .contact .author-message {
   position: relative;
