@@ -75,6 +75,10 @@
     outline: none;
 }
 
+.wire-hidden {
+  display: none;
+}
+
 .paypal-powered-by {
-  display:none;
+  display:none !important;
 }
