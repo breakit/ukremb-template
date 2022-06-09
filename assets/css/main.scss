@@ -109,6 +109,14 @@
   text-align: left;
 }
 
+.speech-bubble {
+  display: none;
+}
+
+.speech-bubble div.icon-holder {
+  display: none;
+}
+
 .btn-outline, .btn-outline:link, .btn-outline:visited {
     background-color: transparent;
     border-radius: 5px;
@@ -137,6 +145,8 @@
       background-color: darken($color-2, 15%);
     }
 }
+
+
 .features .form-inline {
   margin-top: 10px;
 }
