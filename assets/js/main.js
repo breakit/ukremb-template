@@ -32,27 +32,6 @@ jQuery(document).ready(function($) {
 
 });
 
-jQuery(document).ready(function(){
-var view = {};
-
-var checkPosition = function(){
-   var elem = $('.donate .info'), top = elem.offset().top;
-
-                if (top - view.limit < 300) {
-                    elem.css('display','none');
-                }
-            };
-
-       $(window).unbind('scroll').bind('scroll', function() {
-
-            view.top = $(window).scrollTop();
-            view.limit = view.top + $(window).height();
-
-            checkPosition();
-        });
-
-});
-
 
 jQuery(document).ready(function($) {
 
