@@ -72,13 +72,12 @@ paypal.Buttons({
             // Successful capture! For demo purposes:
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
             var transaction = orderData.purchase_units[0].payments.captures[0];
-            alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
+            //alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
 
-            // Replace the above to show a success message within this page, e.g.
-            // const element = document.getElementById('paypal-button-container');
-            // element.innerHTML = '';
-            // element.innerHTML = '<h3>Thank you for your payment!</h3>';
-            // Or go to another URL:  actions.redirect('thank_you.html');
+            $(".speech-bubble").slideDown("slow", function() {
+              $(".speech-bubble div.icon-holder").fadeIn("slow");
+            });
+
         });
     }
 }).render('#paypal-button-container');
