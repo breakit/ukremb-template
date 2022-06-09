@@ -1,5 +1,5 @@
 .amount-chooser {
-  margin: 0 auto 0.5em;
+  margin: 0.5em auto;
   width: 85%;
 }
 
@@ -37,6 +37,7 @@
     background-color: $color-2;
     color: $color;
     border-radius: 4px;
+    height: 55px;
 }
 
 /* Hide HTML5 Up and Down arrows in input type="number" */
@@ -61,7 +62,7 @@
     text-align: center;
     font-family: sans-serif;
     font-size: 18px;
-    width: 67%;
+    width: 65%;
     -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
     -moz-box-sizing: border-box; /* For all Gecko based browsers */
     box-sizing: border-box;
