@@ -43,7 +43,7 @@ var checkPosition = function(){
                 }
             };
 
-       $(window).bind('scroll', function() {
+       $(window).unbind('scroll').bind('scroll', function() {
 
             view.top = $(window).scrollTop();
             view.limit = view.top + $(window).height();
