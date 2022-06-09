@@ -16,7 +16,7 @@
 }
 
 .amount-chooser label:hover {
-    background: #fff;
+    background: #ddf;
     color: #555;
     border: 1px solid #000;
     border-radius: 4px;
@@ -37,7 +37,7 @@
 }
 
 .amount-chooser input:checked + span {
-    background-color: #fff;
+    background-color: #ddf;
     color: #000;
     border: 1px solid #000;
     border-radius: 4px;
@@ -73,7 +73,7 @@
 }
 
 .amount-chooser  .textBox:focus {
-    background: #fff;
+    background: #ddf;
     border: 1px solid #000;
     border-radius: 4px;
     color: #000;
