@@ -77,7 +77,7 @@ paypal.Buttons({
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
             var transaction = orderData.purchase_units[0].payments.captures[0];
             //alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
-            $(".speech-bubble .intro").text("Thank you for your donation! That's means so much for us.");
+            $(".speech-bubble .intro").text("Vielen dank für Ihre Spende!");
             $(".speech-bubble").slideDown("slow", function() {
               $(".speech-bubble div.icon-holder").fadeIn(900);
             });
@@ -90,7 +90,7 @@ paypal.Buttons({
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
             var transaction = orderData.purchase_units[0].payments.captures[0];
             //alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
-            $(".speech-bubble .intro").text("Thank you! May be next time.");
+            $(".speech-bubble .intro").text("Vielen dank! Vielleicht nächsten Mal.");
             $(".speech-bubble").slideDown("slow", function() {
               $(".speech-bubble div.icon-holder").fadeIn(900);
             });
@@ -103,7 +103,7 @@ paypal.Buttons({
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
             var transaction = orderData.purchase_units[0].payments.captures[0];
             //alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
-            $(".speech-bubble .intro").text("Some error are happens! Please, try again later.");
+            $(".speech-bubble .intro").text("Eine Fehler ist aufgetreten! Versuchen Sie bitte noch ein Mal zur späteren Zeit.");
             $(".speech-bubble").slideDown("slow", function() {
               $(".speech-bubble div.icon-holder").fadeIn(900);
             });
