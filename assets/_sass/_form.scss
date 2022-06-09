@@ -7,16 +7,16 @@
     height: 55px;
     margin: 1%;
     float: left;
-    background: $color;
-    color: #fff;
+    background: #fff;
+    color: #555;
     text-align: center;
     width: 31%;
     border-radius: 4px;
 }
 
 .amount-chooser label:hover {
-    background: $color-2;
-    color: $color;
+    background: #fff;
+    color: #555;
     border-radius: 4px;
 }
 
@@ -34,8 +34,8 @@
 }
 
 .amount-chooser input:checked + span {
-    background-color: $color-2;
-    color: $color;
+    background-color: #fff;
+    color: #000;
     border-radius: 4px;
     height: 55px;
 }
@@ -54,8 +54,8 @@
     margin: 1%;
     height: 55px;
     float: left;
-    background: $color;
-    color: #fff;
+    background: #fff;
+    color: #555;
     border: 0;
     border-radius: 4px;
     padding: 10px 0;
@@ -69,8 +69,8 @@
 }
 
 .amount-chooser  .textBox:focus {
-    background: $color-2;
+    background: #fff;
     border: 0;
     border-radius: 4px;
-    color: $color;
+    color: #000;
 }
