@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
 
 jQuery(document).ready(function($) {
 
-  $('.donate .info').visible(function() {
+  $('.donate .info:visible').visible(function() {
     $('.donate .info').fadeIn('slow');
   });
 
