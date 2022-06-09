@@ -53,6 +53,7 @@ paypal.Buttons({
     // Set up the transaction
     createOrder: function(data, actions) {
         var donation = jQuery(".amount-chooser .checkbutton:checked").size() ? jQuery(".amount-chooser .checkbutton:checked").val() : jQuery(".amount-chooser .textBox").val();
+        log.error(donation);
         return actions.order.create({
             purchase_units: [{
                 amount: {
