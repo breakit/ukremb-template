@@ -4,6 +4,7 @@
 }
 
 .amount-chooser label {
+    height: 55px;
     margin: 1%;
     float: left;
     background: $color;
@@ -50,7 +51,7 @@
 
 .amount-chooser  .textBox {
     margin: 1%;
-    height: 43px;
+    height: 55px;
     float: left;
     background: $color;
     color: #fff;
