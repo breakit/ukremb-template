@@ -46,6 +46,10 @@ jQuery(document).ready(function($) {
           $(".amount-chooser .textBox").val("");
       }
   });
+
+  $("#wire-transfer").click(function(event) {
+      $(".wire-hidden").slideToggle(900);
+  });
 });
 
 // Render the PayPal button into #paypal-button-container
