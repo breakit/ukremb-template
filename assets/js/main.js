@@ -32,7 +32,6 @@ jQuery(document).ready(function($) {
 
 });
 
-
 jQuery(document).ready(function($) {
 
   $('.amount-chooser input.checkbutton').on('change', function() {
