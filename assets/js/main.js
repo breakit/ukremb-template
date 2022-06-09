@@ -34,7 +34,9 @@ jQuery(document).ready(function($) {
 
 jQuery(document).ready(function($) {
 
-  $('.donate .info').fadeIn('slow');
+  $('.donate .info').visible(function() {
+    $('.donate .info').fadeIn('slow');
+  });
 
   $('.amount-chooser input.checkbutton').on('change', function() {
       $('.amount-chooser input.checkbutton').not(this).prop('checked', false);
