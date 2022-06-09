@@ -75,6 +75,11 @@
     outline: none;
 }
 
+#wire-transfer {
+  height: 55px;
+  padding: 15px 0;
+}
+
 .wire-hidden {
   display: none;
   background-color: $grey;
