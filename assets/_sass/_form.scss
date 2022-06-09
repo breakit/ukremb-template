@@ -8,7 +8,7 @@
     margin: 1%;
     float: left;
     //background: #fff;
-    color: #555;
+    color: $grey;
     text-align: center;
     width: 31%;
     border-radius: 4px;
@@ -16,12 +16,12 @@
 
 .amount-chooser label:hover {
     //background: lighten($color, 50%);
-    color: #555;
+    color: $darker-grey;
 }
 
 .amount-chooser label span {
     text-align: center;
-    background-color: lighten($color, 70%);
+    background-color: lighten($color, 50%);
     box-sizing: border-box;
     border: 1px solid #000;
     border-radius: 4px;
@@ -36,8 +36,8 @@
 }
 
 .amount-chooser input:checked + span {
-    background-color: lighten($color, 70%);
-    color: #000;
+    background-color: lighten($color, 50%);
+    color: $text-color;
     border: 1px solid #000;
     border-radius: 4px;
     height: 55px;
@@ -58,7 +58,7 @@
     height: 55px;
     float: left;
     background: #fff;
-    color: #555;
+    color: $grey;
     border: 1px solid #000;
     border-radius: 4px;
     padding: 10px 0;
@@ -72,8 +72,8 @@
 }
 
 .amount-chooser  .textBox:focus {
-    background: lighten($color, 70%);
+    background: lighten($color, 50%);
     border: 1px solid #000;
     border-radius: 4px;
-    color: #000;
+    color: $text-color;
 }
