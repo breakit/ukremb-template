@@ -82,12 +82,9 @@
 
 .wire-hidden {
   display: none;
-  background-color: lighten($grey, 50%);
-  border-radius: 2px;
+  background-color: lighten($grey, 60%);
+  border-radius: 4px;
   padding: 1.5em 0;
-}
-
-.wire-hidden p {
   color: darken($color, 20%);
 }
 
