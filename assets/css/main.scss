@@ -40,6 +40,10 @@
   background: linear-gradient(90deg, $color 0%, darken($color, 15%) 50%, $color 100%);
 }
 
+.contact h2 {
+  color: lighten($color-2, 10%);
+}
+
 .promo .bottom-title {
   padding-top: 0.5em;
 }
