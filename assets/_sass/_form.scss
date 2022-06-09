@@ -77,6 +77,8 @@
 
 .wire-hidden {
   display: none;
+  background-color: $grey;
+  border-radius: 4px;
 }
 
 .paypal-powered-by {
