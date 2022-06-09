@@ -71,7 +71,7 @@ jQuery(document).ready(function($) {
   });
 
   $('#wire-transfer').click(function(event) {
-      $('.wire-hidden').slideToggle(900);
+      $('.wire-hidden').slideToggle(850);
   });
 });
 
