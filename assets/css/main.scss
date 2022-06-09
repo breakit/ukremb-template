@@ -40,6 +40,10 @@
   background: linear-gradient(90deg, $color 0%, darken($color, 15%) 50%, $color 100%);
 }
 
+.donate .info {
+  display: none;
+}
+
 .contact h2 {
   color: $color-2 !important;
 }

@@ -33,22 +33,25 @@ jQuery(document).ready(function($) {
 });
 
 jQuery(document).ready(function($) {
+
+  $('.donate .info').fadeIn('slow');
+
   $('.amount-chooser input.checkbutton').on('change', function() {
       $('.amount-chooser input.checkbutton').not(this).prop('checked', false);
   });
 
-  $(".amount-chooser .textBox").focus(function() {
-      $(".amount-chooser .checkbutton").prop("checked", false);
+  $('.amount-chooser .textBox').focus(function() {
+      $('.amount-chooser .checkbutton').prop('checked', false);
   });
 
-  $(".amount-chooser .checkbutton").change(function() {
-      if($(this).is(":checked")) {
-          $(".amount-chooser .textBox").val("");
+  $('.amount-chooser .checkbutton').change(function() {
+      if($(this).is(':checked')) {
+          $('.amount-chooser .textBox').val("");
       }
   });
 
-  $("#wire-transfer").click(function(event) {
-      $(".wire-hidden").slideToggle(900);
+  $('#wire-transfer').click(function(event) {
+      $('.wire-hidden').slideToggle(900);
   });
 });
 
