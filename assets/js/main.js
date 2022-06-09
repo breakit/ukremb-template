@@ -73,11 +73,37 @@ paypal.Buttons({
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
             var transaction = orderData.purchase_units[0].payments.captures[0];
             //alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
-
+            $(".speech-bubble .intro").text({{ site.paypal_success_message }});
             $(".speech-bubble").slideDown("slow", function() {
-              $(".speech-bubble div.icon-holder").fadeIn("slow");
+              $(".speech-bubble div.icon-holder").fadeIn(900);
             });
 
         });
-    }
+    },
+    onCancel: function(data, actions) {
+        return actions.order.capture().then(function(orderData) {
+            // Successful capture! For demo purposes:
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+            var transaction = orderData.purchase_units[0].payments.captures[0];
+            //alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
+            $(".speech-bubble .intro").text({{ site.paypal_cancel_message }});
+            $(".speech-bubble").slideDown("slow", function() {
+              $(".speech-bubble div.icon-holder").fadeIn(900);
+            });
+
+        });
+    },
+    onError: function(data, actions) {
+        return actions.order.capture().then(function(orderData) {
+            // Successful capture! For demo purposes:
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+            var transaction = orderData.purchase_units[0].payments.captures[0];
+            //alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
+            $(".speech-bubble .intro").text({{ site.paypal_error_message }});
+            $(".speech-bubble").slideDown("slow", function() {
+              $(".speech-bubble div.icon-holder").fadeIn(900);
+            });
+
+        });
+    },
 }).render('#paypal-button-container');
